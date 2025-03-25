@@ -1,0 +1,14 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "backend application of a platform name tinder where you can make new friends ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karan Barman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

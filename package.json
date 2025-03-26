@@ -2,13 +2,17 @@
   "name": "devtinder",
   "version": "1.0.0",
   "description": "backend application of a platform name tinder where you can make new friends ",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "author": "Karan Barman",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "@prisma/client": "^6.5.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "prisma": "^6.5.0"
   }
 }
